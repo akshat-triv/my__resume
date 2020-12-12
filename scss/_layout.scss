@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  align-items: stretch;
+
+  &__left {
+    flex: 65% 0 0;
+    padding: 2rem;
+  }
+
+  &__right {
+    flex: 1;
+    background-color: #fcfcfc;
+    padding: 2rem;
+  }
+}
