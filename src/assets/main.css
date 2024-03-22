@@ -1,0 +1,9 @@
+@import './base.css';
+
+#app {
+  max-width: 100rem;
+  margin: 0 auto;
+  font-weight: normal;
+  padding: 4rem 0;
+}
+
