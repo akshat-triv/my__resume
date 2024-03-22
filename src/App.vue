@@ -1,26 +1,29 @@
 <script setup>
 import LinkedinIcon from './components/icons/LinkedinIcon.vue'
 import MailIcon from './components/icons/MailIcon.vue'
+import MediumIcon from './components/icons/MediumIcon.vue'
 import PhoneIcon from './components/icons/PhoneIcon.vue'
 </script>
 
 <template>
   <header>
-    <h1>Astha Srivastava</h1>
+    <h1>Akshat Trivedi</h1>
     <div class="contacts-wrapper">
       <div class="contacts">
         <PhoneIcon class="contacts-icon" />
-        <span>+91 8707677080</span>
+        <span>+91 7905737185</span>
       </div>
-      <a href="mailto:vibhutisrivastava62463@gmail.com" class="contacts">
+      <a href="mailto:akshattriv.iit@gmail.com" class="contacts">
         <MailIcon class="contacts-icon" />
-        <span>vibhutisrivastava62463@gmail.com</span>
+        <span>akshattriv.iit@gmail.com</span>
       </a>
       <div class="contacts">
         <LinkedinIcon class="contacts-icon" />
-        <a href="https://www.linkedin.com/in/astha-srivastava-3a0799214/"
-          >astha-srivastava-3a0799214</a
-        >
+        <a href="https://www.linkedin.com/in/akshat-trivedi-18b8301a5/">akshat-trivedi-18b8301a5</a>
+      </div>
+      <div class="contacts">
+        <MediumIcon class="contacts-icon" />
+        <a href="https://medium.com/@akshattriv">@akshattriv</a>
       </div>
     </div>
   </header>
@@ -28,12 +31,12 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
     <section class="section">
       <h2 class="section-heading">summary</h2>
       <div class="section-content">
-        I have served as an Associate Engineer at Nagaro for one year and seven months. My expertise
-        lies in ensuring the seamless operation of software through meticulous testing and issue
-        resolution. Additionally, I excel in devising comprehensive plans to validate software
-        compliance with its specifications. I am seeking an opportunity to further expand my skills
-        in a dynamic and challenging environment, contributing to both personal career advancement
-        and organizational growth.
+        Software Engineer with approximately 2 years of experience specializing in building Single
+        Page Applications (SPAs) from scratch. Proficient in the Vue ecosystem while remaining
+        adaptable to various JavaScript frameworks. Demonstrated expertise in delivering
+        fast-performing applications with optimized code, adhering to best coding practices.
+        Passionate about crafting user-centric experiences and driving innovation in web
+        development.
       </div>
     </section>
     <section class="section">
@@ -41,74 +44,75 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
       <div class="section-bullet-points">
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">Manual Testing</span>
+          <span class="bullet-points">Vue JS</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">Azure Devops</span>
+          <span class="bullet-points">Nuxt JS</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">Functional Testing</span>
+          <span class="bullet-points">Typescript</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">API Testing</span>
+          <span class="bullet-points">JavaScript</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">SQL</span>
+          <span class="bullet-points">Sass</span>
+        </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">CSS</span>
+        </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">CI/CD & GitHub Actions</span>
         </div>
       </div>
     </section>
     <section class="section">
       <h2 class="section-heading">work experience</h2>
       <div class="section-heading-secondary-wrapper">
-        <h3 class="section-heading-secondary">Nagarro</h3>
-        <h3 class="section-heading-secondary">Aug 2022 - Present</h3>
+        <h3 class="section-heading-secondary">A.P. Moller - Maersk</h3>
+        <h3 class="section-heading-secondary">July 2022 - Present</h3>
       </div>
-      <h4 class="section-heading-tertiary">Piramal Capital & Housing Finance Limited</h4>
+      <h4 class="section-heading-tertiary">Master Data Management Applications</h4>
       <ul class="section-list-wrapper">
         <li class="section-list-item">
-          Loan Origination System is a lending application that digitizes the loan facility
-          generation process, making the entire loan procedure feasible for both employees and
-          customers.
+          Our team is the part of GDA (Global Data Analytics) and we manage multiple master data. I
+          worked on creating a reusable master data management application UI framework, using which
+          I delivered 4 master data management applications.
         </li>
         <li class="section-list-item">
-          Reporting bugs for issues occurring in Production/LIVE and raising observations while
-          testing in lower environments.
+          I utilized Vue 3, Vite, Pinia, Vuex, Azure AD for authentication and authorization, and
+          Azure Maps in the development of these master data management applications.
         </li>
         <li class="section-list-item">
-          Performing Smoke Testing, Sanity Testing, Functional Testing, Integration Testing,
-          Retesting, Regression Testing, System Testing, UAT, and Compatibility Testing.
+          Conducted rigorous unit testing with Vitest and adhered to the Test-Driven Development
+          (TDD) methodology throughout the development of these applications.
         </li>
         <li class="section-list-item">
-          Working in Agile, participating in sprint planning and review sessions.
+          Collaborated closely with stakeholders to understand requirements and translate them into
+          functional and user-friendly interfaces across multiple MDM projects.
         </li>
         <li class="section-list-item">
-          Responsible for writing test scenarios, test cases, and preparing test reports.
+          Ensured high performance and optimized codebase by adhering to best coding practices like
+          code-splitting, implementing debouncing, writing re-usable components, composables and
+          leveraging Vue ecosystem tools such as Pinia, and Vue Use.
         </li>
         <li class="section-list-item">
-          Preparing documentation such as Use Cases, Test Scenarios, and Test Cases for Product
-          Backlog items and Bugs.
-        </li>
-      </ul>
-      <h4 class="section-heading-tertiary">IXM Cloud Accelerator</h4>
-      <ul class="section-list-wrapper">
-        <li class="section-list-item">
-          It is an internal project on AEM (Adobe Experience Manager) as a CMS (Content Management
-          System) tool for developing website content.
+          Successfully delivered projects within specified timelines, meeting business objectives
+          and enhancing operational efficiency for GDA's MDM initiatives.
         </li>
         <li class="section-list-item">
-          Testing the basic components such as content authoring and identifying bugs in the IXM
-          website.
+          Actively participated in code reviews, providing constructive feedback and ensuring code
+          quality and consistency throughout the development lifecycle.
         </li>
         <li class="section-list-item">
-          Worked on the workflow, Site Translation, Custom Authentication, and Authorization in AEM,
-          and performed testing on all of these.
-        </li>
-        <li class="section-list-item">
-          Reviewing the AEM documentation and completing the implementation on Confluence.
+          Set up Continuous Integration/Continuous Deployment (CI/CD) pipelines to automate testing
+          and deployment procedures, ensuring rapid and reliable software delivery.
         </li>
       </ul>
     </section>
@@ -118,15 +122,15 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
         <h5 class="section-content-heading">
           Bachelors of Technology - Computer Science Engineering
         </h5>
-        Pranveer Singh Institute of Technology(PSIT), Kanpur - 2022 - 7.47 SGPA
+        Pranveer Singh Institute of Technology(PSIT), Kanpur - 2022 - 7.79 CGPA
       </div>
       <div class="section-content">
         <h5 class="section-content-heading">Intermediate School</h5>
-        Gaurav Memorial International School, Kanpur - 2018 - 64.8%
+        Gaurav Memorial International School, Kanpur - 2018 - 69.9%
       </div>
       <div class="section-content">
         <h5 class="section-content-heading">High School</h5>
-        Maa Ananteshwari Vidyalaya(MAV High School), Bilhaur - 2016 - 10 CGPA
+        Gaurav Memorial International School, Kanpur - 2016 - 7.6 CGPA
       </div>
     </section>
   </main>
@@ -254,6 +258,8 @@ main {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    border-left: 6px solid var(--color-background-mute);
+    padding-left: 1.2rem;
 
     & > * {
       flex: 0 0 25%;
