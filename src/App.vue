@@ -29,11 +29,11 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
       <h2 class="section-heading">summary</h2>
       <div class="section-content">
         I have served as an Associate Engineer at Nagaro for one year and seven months. My expertise
-        lies in ensuring the seamless operation of software through meticulous testing and issue
-        resolution. Additionally, I excel in devising comprehensive plans to validate software
-        compliance with its specifications. I am seeking an opportunity to further expand my skills
-        in a dynamic and challenging environment, contributing to both personal career advancement
-        and organizational growth.
+        lies in quality assurance and ensuring the seamless operation of software through meticulous
+        testing and issue resolution. Additionally, I excel in devising comprehensive plans to
+        validate software compliance with its specifications. I am seeking an opportunity to further
+        expand my skills in a dynamic and challenging environment, contributing to both personal
+        career advancement and organizational growth.
       </div>
     </section>
     <section class="section">
@@ -59,10 +59,14 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
           <span class="bullet-points-point"></span>
           <span class="bullet-points">SQL</span>
         </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">CI/CD</span>
+        </div>
       </div>
     </section>
     <section class="section">
-      <h2 class="section-heading">work experience</h2>
+      <h2 class="section-heading">professional experience</h2>
       <div class="section-heading-secondary-wrapper">
         <h3 class="section-heading-secondary">Nagarro</h3>
         <h3 class="section-heading-secondary">Aug 2022 - Present</h3>
@@ -206,7 +210,6 @@ main {
   }
 
   &-heading {
-    letter-spacing: 8px;
     font-size: 2.4rem;
     color: var(--color-text-gray);
     font-weight: 600;
@@ -251,6 +254,8 @@ main {
   }
 
   &-bullet-points {
+    border-left: 6px solid var(--color-background-mute);
+    padding: 0 1.2rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
