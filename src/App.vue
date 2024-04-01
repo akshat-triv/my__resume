@@ -31,12 +31,11 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
     <section class="section">
       <h2 class="section-heading">summary</h2>
       <div class="section-content">
-        Software Engineer with approximately 2 years of experience specializing in building Single
-        Page Applications (SPAs) from scratch. Proficient in the Vue ecosystem while remaining
-        adaptable to various JavaScript frameworks. Demonstrated expertise in delivering
-        fast-performing applications with optimized code, adhering to best coding practices.
-        Passionate about crafting user-centric experiences and driving innovation in web
-        development.
+        Software Engineer with 2+ years of experience specializing in building Single Page
+        Applications (SPAs) from scratch. Proficient in the Vue ecosystem while remaining adaptable
+        to various JavaScript frameworks. Demonstrated expertise in delivering fast-performing
+        applications with optimized code, adhering to best coding practices. Passionate about
+        crafting user-centric experiences and driving innovation in web development.
       </div>
     </section>
     <section class="section">
@@ -73,7 +72,7 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
       </div>
     </section>
     <section class="section">
-      <h2 class="section-heading">work experience</h2>
+      <h2 class="section-heading">professional experience</h2>
       <div class="section-heading-secondary-wrapper">
         <h3 class="section-heading-secondary">A.P. Moller - Maersk</h3>
         <h3 class="section-heading-secondary">July 2022 - Present</h3>
@@ -81,13 +80,21 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
       <h4 class="section-heading-tertiary">Master Data Management Applications</h4>
       <ul class="section-list-wrapper">
         <li class="section-list-item">
-          Our team is the part of GDA (Global Data Analytics) and we manage multiple master data. I
-          worked on creating a reusable master data management application UI framework, using which
-          I delivered 4 master data management applications.
+          Our team operates within the Global Data Analytics (GDA) division, overseeing various
+          master data sets. My contribution involved developing a reusable UI framework for master
+          data management applications, resulting in the successful delivery of four such
+          applications.
         </li>
         <li class="section-list-item">
-          I utilized Vue 3, Vite, Pinia, Vuex, Azure AD for authentication and authorization, and
-          Azure Maps in the development of these master data management applications.
+          Each application encompassed over 10 screens dedicated to creation, updating, and viewing
+          functionalities. A configuration-driven codebase was developed to dynamically generate
+          these screens during runtime, governed by external JSON data. This approach facilitated
+          seamless modifications, such as introducing new entities, without necessitating any code
+          alterations; merely an addition to the configuration files sufficed.
+        </li>
+        <li class="section-list-item">
+          In the development of these master data management applications, I employed Vue 3, Vite,
+          Pinia, Vuex, Azure AD for authentication and authorization, and Azure Maps.
         </li>
         <li class="section-list-item">
           Conducted rigorous unit testing with Vitest and adhered to the Test-Driven Development
@@ -140,7 +147,7 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
 header {
   padding: 2.4rem 4.8rem;
   background-color: var(--color-background-mute);
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.6rem;
 }
 
 h1 {
@@ -189,7 +196,7 @@ main {
 
 .section {
   &:not(:last-child) {
-    margin-bottom: 2.8rem;
+    margin-bottom: 1.6rem;
   }
 
   &-list {
@@ -210,7 +217,6 @@ main {
   }
 
   &-heading {
-    letter-spacing: 8px;
     font-size: 2.4rem;
     color: var(--color-text-gray);
     font-weight: 600;
@@ -244,7 +250,7 @@ main {
     border-left: 6px solid var(--color-background-mute);
 
     &:not(:last-child) {
-      margin-bottom: 2rem;
+      margin-bottom: 1.6rem;
     }
 
     &-heading {
