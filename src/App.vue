@@ -101,8 +101,8 @@ import LocationPinIcon from './components/icons/LocationPinIcon.vue'
           Testing the basic component for ad hoc and exploratory testing.
         </li>
         <li class="section-list-item">
-          Have performed smoke testing, sanity testing, functional testing, integration testing,
-          retesting, regression testing, system testing, UAT, and compatibility testing.
+          Have performed Smoke Testing, Sanity Testing, Functional Testing, Integration Testing,
+          Retesting, Regression Testing, System Testing, UAT, and Compatibility Testing.
         </li>
         <li class="section-list-item">
           Beginner in developing automation tests with Selenium WebDriver, TestNG, Maven, and
