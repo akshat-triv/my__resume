@@ -28,12 +28,13 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
     <section class="section">
       <h2 class="section-heading">summary</h2>
       <div class="section-content">
-        I have served as an Associate Engineer at Nagaro for one year and seven months. My expertise
-        lies in quality assurance and ensuring the seamless operation of software through meticulous
-        testing and issue resolution. Additionally, I excel in devising comprehensive plans to
-        validate software compliance with its specifications. I am seeking an opportunity to further
-        expand my skills in a dynamic and challenging environment, contributing to both personal
-        career advancement and organizational growth.
+        Results-driven Associate Engineer with 2 years of experience at Nagaro, specializing in
+        quality assurance and software testing. Proven track record of ensuring seamless software
+        operation through meticulous testing and issue resolution. Skilled in devising comprehensive
+        validation plans to ensure software compliance with specifications. Proficient in automation
+        testing using tools like Selenium. Seeking to leverage expertise in a dynamic and
+        challenging environment to contribute to personal career advancement and organizational
+        growth.
       </div>
     </section>
     <section class="section">
@@ -49,19 +50,35 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">Functional Testing</span>
+          <span class="bullet-points">JIRA</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">API Testing</span>
+          <span class="bullet-points">Postman API</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">SQL</span>
+          <span class="bullet-points">SDLC and STLC</span>
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">CI/CD</span>
+          <span class="bullet-points">Agile Methodology</span>
+        </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">Selenium</span>
+        </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">Maven</span>
+        </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">TestNG</span>
+        </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">Appium</span>
         </div>
       </div>
     </section>
@@ -69,8 +86,33 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
       <h2 class="section-heading">professional experience</h2>
       <div class="section-heading-secondary-wrapper">
         <h3 class="section-heading-secondary">Nagarro</h3>
-        <h3 class="section-heading-secondary">Aug 2022 - Present</h3>
+        <h3 class="section-heading-secondary">Jan 2022 - March 2024</h3>
       </div>
+
+      <h4 class="section-heading-tertiary">Summary</h4>
+
+      <ul class="section-list-wrapper">
+        <li class="section-list-item">
+          Responsible for writing test scenarios, test cases, use cases, HLD and preparing test
+          reports.
+        </li>
+        <li class="section-list-item">
+          Testing the basic component for Adhoc and Exploratory testing.
+        </li>
+        <li class="section-list-item">
+          Have perofrmed Smoke Testing, Sanity Testing, Functional Testing, Integration Testing,
+          Retesting, Regression Testing, System Testing, UAT, and Compatibility Testing.
+        </li>
+        <li class="section-list-item">
+          Have done training Maven and TestNG in Selenium, Appium based framework for automated APK.
+        </li>
+        <li class="section-list-item">
+          Working in Agile, participating in sprint planning and review sessions.
+        </li>
+      </ul>
+
+      <h4 class="section-heading-tertiary">Projects</h4>
+
       <h4 class="section-heading-tertiary">Piramal Capital & Housing Finance Limited</h4>
       <ul class="section-list-wrapper">
         <li class="section-list-item">
@@ -78,24 +120,10 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
           generation process, making the entire loan procedure feasible for both employees and
           customers.
         </li>
-        <li class="section-list-item">
+        <!-- <li class="section-list-item">
           Reporting bugs for issues occurring in Production/LIVE and raising observations while
           testing in lower environments.
-        </li>
-        <li class="section-list-item">
-          Performing Smoke Testing, Sanity Testing, Functional Testing, Integration Testing,
-          Retesting, Regression Testing, System Testing, UAT, and Compatibility Testing.
-        </li>
-        <li class="section-list-item">
-          Working in Agile, participating in sprint planning and review sessions.
-        </li>
-        <li class="section-list-item">
-          Responsible for writing test scenarios, test cases, and preparing test reports.
-        </li>
-        <li class="section-list-item">
-          Preparing documentation such as Use Cases, Test Scenarios, and Test Cases for Product
-          Backlog items and Bugs.
-        </li>
+        </li> -->
       </ul>
       <h4 class="section-heading-tertiary">IXM Cloud Accelerator</h4>
       <ul class="section-list-wrapper">
@@ -103,7 +131,7 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
           It is an internal project on AEM (Adobe Experience Manager) as a CMS (Content Management
           System) tool for developing website content.
         </li>
-        <li class="section-list-item">
+        <!-- <li class="section-list-item">
           Testing the basic components such as content authoring and identifying bugs in the IXM
           website.
         </li>
@@ -113,7 +141,7 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
         </li>
         <li class="section-list-item">
           Reviewing the AEM documentation and completing the implementation on Confluence.
-        </li>
+        </li> -->
       </ul>
     </section>
     <section class="section">
