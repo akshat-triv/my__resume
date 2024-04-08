@@ -2,6 +2,7 @@
 import LinkedinIcon from './components/icons/LinkedinIcon.vue'
 import MailIcon from './components/icons/MailIcon.vue'
 import PhoneIcon from './components/icons/PhoneIcon.vue'
+import LocationPinIcon from './components/icons/LocationPinIcon.vue'
 </script>
 
 <template>
@@ -21,6 +22,10 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
         <a href="https://www.linkedin.com/in/astha-srivastava-3a0799214/"
           >astha-srivastava-3a0799214</a
         >
+      </div>
+      <div class="contacts">
+        <LocationPinIcon class="contacts-icon" />
+        <span>Kanpur, India</span>
       </div>
     </div>
   </header>
@@ -70,10 +75,6 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
         </div>
         <div class="bullet-points-wrapper">
           <span class="bullet-points-point"></span>
-          <span class="bullet-points">Maven</span>
-        </div>
-        <div class="bullet-points-wrapper">
-          <span class="bullet-points-point"></span>
           <span class="bullet-points">TestNG</span>
         </div>
         <div class="bullet-points-wrapper">
@@ -93,21 +94,26 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
 
       <ul class="section-list-wrapper">
         <li class="section-list-item">
-          Responsible for writing test scenarios, test cases, use cases, HLD and preparing test
-          reports.
+          Responsible for writing test scenarios, test cases, use cases, high-level designs (HLD),
+          and preparing test reports.
         </li>
         <li class="section-list-item">
-          Testing the basic component for Adhoc and Exploratory testing.
+          Testing the basic component for ad hoc and exploratory testing.
         </li>
         <li class="section-list-item">
-          Have perofrmed Smoke Testing, Sanity Testing, Functional Testing, Integration Testing,
-          Retesting, Regression Testing, System Testing, UAT, and Compatibility Testing.
+          Have performed smoke testing, sanity testing, functional testing, integration testing,
+          retesting, regression testing, system testing, UAT, and compatibility testing.
         </li>
         <li class="section-list-item">
-          Have done training Maven and TestNG in Selenium, Appium based framework for automated APK.
+          Beginner in developing automation tests with Selenium WebDriver, TestNG, Maven, and
+          Appium-based framework for automated APKs.
         </li>
         <li class="section-list-item">
           Working in Agile, participating in sprint planning and review sessions.
+        </li>
+        <li class="section-list-item">
+          Received consecutive highly valuable feedback for exceptional performance and
+          contributions at Nagarro.
         </li>
       </ul>
 
@@ -116,7 +122,7 @@ import PhoneIcon from './components/icons/PhoneIcon.vue'
       <h4 class="section-heading-tertiary">Piramal Capital & Housing Finance Limited</h4>
       <ul class="section-list-wrapper">
         <li class="section-list-item">
-          Loan Origination System is a lending application that digitizes the loan facility
+          The Loan Origination System is a lending application that digitizes the loan facility
           generation process, making the entire loan procedure feasible for both employees and
           customers.
         </li>
