@@ -33,7 +33,7 @@ import LocationPinIcon from './components/icons/LocationPinIcon.vue'
     <section class="section">
       <h2 class="section-heading">summary</h2>
       <div class="section-content">
-        Results-driven Associate Engineer with 2 years of experience at Nagaro, specializing in
+        Results-driven Associate Engineer with 2 years of experience at Nagarro, specializing in
         quality assurance and software testing. Proven track record of ensuring seamless software
         operation through meticulous testing and issue resolution. Skilled in devising comprehensive
         validation plans to ensure software compliance with specifications. Proficient in automation
