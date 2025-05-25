@@ -81,6 +81,10 @@ import LocationPinIcon from './components/icons/LocationPinIcon.vue'
           <span class="bullet-points-point"></span>
           <span class="bullet-points">Appium</span>
         </div>
+        <div class="bullet-points-wrapper">
+          <span class="bullet-points-point"></span>
+          <span class="bullet-points">Unix</span>
+        </div>
       </div>
     </section>
     <section class="section">
